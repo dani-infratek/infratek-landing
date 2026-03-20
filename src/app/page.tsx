@@ -491,20 +491,20 @@ export default function Home() {
     <main className="min-h-screen">
       {/* ─── HEADER ─── */}
       <header className="sticky top-0 z-50 bg-[var(--color-cream)]/95 backdrop-blur-sm border-b border-[var(--color-cream-dark)]">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-3">
+        <div className="max-w-5xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
+          <a href="/" className="flex items-center gap-2 shrink-0">
             <img
               src="/infratek-logo-icon.png"
               alt="INFRATEK"
-              width={36}
-              height={36}
-              className="h-9 w-auto"
+              width={32}
+              height={32}
+              className="h-8 w-auto"
             />
-            <span className="text-xl font-semibold tracking-wide text-[var(--color-charcoal)]">
+            <span className="text-lg md:text-xl font-semibold tracking-wide text-[var(--color-charcoal)]">
               INFRATEK<span className="text-[var(--color-accent)]">.AI</span>
             </span>
           </a>
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
+          <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
             <a href="#how" className="hover:text-[var(--color-accent)] transition">
               {t.nav.howItWorks}
             </a>
@@ -521,28 +521,24 @@ export default function Home() {
               {t.nav.team}
             </a>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             {/* Language Toggle */}
             <button
               onClick={toggleLanguage}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-[var(--color-cream-dark)] hover:border-[var(--color-charcoal-light)] transition text-sm"
+              className="flex items-center gap-1 px-2 md:px-3 py-1.5 md:py-2 rounded-lg border border-[var(--color-cream-dark)] hover:border-[var(--color-charcoal-light)] transition text-xs md:text-sm"
               aria-label="Toggle language"
             >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-[var(--color-charcoal-light)]">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-              </svg>
               <span className={lang === "en" ? "font-semibold text-[var(--color-charcoal)]" : "text-[var(--color-charcoal-light)]"}>
                 EN
               </span>
-              <span className="text-[var(--color-charcoal-light)]">|</span>
+              <span className="text-[var(--color-charcoal-light)]">/</span>
               <span className={lang === "es" ? "font-semibold text-[var(--color-charcoal)]" : "text-[var(--color-charcoal-light)]"}>
                 ES
               </span>
             </button>
             <a
               href="#waitlist"
-              className="bg-[var(--color-accent)] text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[var(--color-accent-dark)] transition"
+              className="hidden sm:inline-block bg-[var(--color-accent)] text-white px-4 md:px-5 py-2 md:py-2.5 rounded-lg text-xs md:text-sm font-medium hover:bg-[var(--color-accent-dark)] transition"
             >
               {t.nav.joinWaitlist}
             </a>
