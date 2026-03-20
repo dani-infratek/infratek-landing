@@ -22,7 +22,7 @@ const translations = {
       title1: "Build Your Own Engineering Tools",
       title2: "with AI",
       description:
-        "The platform where construction professionals create custom AI applications — from budget estimates to 3D models — without writing code.",
+        "The platform where construction professionals create custom AI applications, from budget estimates to 3D models, without writing code.",
       vibeEngineering: "Vibe Engineering is here.",
       cta1: "Get Early Access →",
       cta2: "Read Our Master Plan",
@@ -46,7 +46,7 @@ const translations = {
         },
         {
           title: "We Build Your Tool",
-          desc: "Our AI agents design a custom application tailored to your specific needs — budget trackers, quantity takeoffs, schedule monitors, BIM processors.",
+          desc: "Our AI agents design a custom application tailored to your specific needs: budget trackers, quantity takeoffs, schedule monitors, BIM processors.",
         },
         {
           title: "It Works For You 24/7",
@@ -64,19 +64,19 @@ const translations = {
         {
           name: "WARI",
           tagline: "AI Employee for Construction",
-          desc: "Autonomous agent that monitors projects 24/7. Reads drawings, tracks budgets, alerts risks, documents everything in La Plaza — the social feed for construction intelligence.",
+          desc: "Autonomous agent that monitors projects 24/7. Reads drawings, tracks budgets, alerts risks, documents everything in La Plaza, the social feed for construction intelligence.",
           status: "In Development",
         },
         {
           name: "Jarvis / BIMSearch",
           tagline: "RFP Intelligence System",
           desc: "Scans government portals (SAM.gov, state procurement) for BIM/VDC opportunities. Qualifies leads, scores relevance, and delivers them to your pipeline.",
-          status: "Live — Paid Client",
+          status: "Live. Paid Client",
         },
         {
           name: "WAGI",
           tagline: "Construction Intelligence Platform",
-          desc: "Web Assembly AI platform where project data flows between agents. Cost tracking, planning, scheduling — all connected through a common data environment.",
+          desc: "Web Assembly AI platform where project data flows between agents. Cost tracking, planning, scheduling, all connected through a common data environment.",
           status: "In Development",
         },
         {
@@ -95,12 +95,12 @@ const translations = {
       how: "how",
       intro2: ", we need to tell you",
       why: "why",
-      p1: "The construction industry is a $13 trillion global machine running on processes that haven't fundamentally changed in decades. The rework, the busted budgets, the blown schedules — these aren't unavoidable costs. They're data problems. And data problems are solvable.",
-      p2: "We believe that project managers and superintendents should be strategic leaders, not full-time firefighters. Your expertise should solve the unique challenges of a project — not get buried in spreadsheets and paperwork.",
+      p1: "The construction industry is a $13 trillion global machine running on processes that haven't fundamentally changed in decades. The rework, the busted budgets, the blown schedules: these aren't unavoidable costs. They're data problems. And data problems are solvable.",
+      p2: "We believe that project managers and superintendents should be strategic leaders, not full-time firefighters. Your expertise should solve the unique challenges of a project, not get buried in spreadsheets and paperwork.",
       stage1Title: "Stage 1: We Start Where It Hurts Most",
       conductorsHat: "\"The Conductor's Hat\"",
       stage1Desc:
-        "Each project needs ONE operator — a person who puts on the conductor's hat and learns to pilot the AI system. It's not about replacing humans. It's about giving every professional the power to build tools that were impossible before.",
+        "Each project needs ONE operator, a person who puts on the conductor's hat and learns to pilot the AI system. It's not about replacing humans. It's about giving every professional the power to build tools that were impossible before.",
       stage2Title: "Stage 2: The Platform Opens",
       stage2Desc:
         "Like Replit democratized coding, INFRATEK democratizes engineering software. You don't need a development team. You need a conversation and a clear objective. Our agents handle the rest.",
@@ -109,10 +109,10 @@ const translations = {
         "A marketplace of AI tools built by the industry, for the industry. The best quantity takeoff agent. The best schedule optimizer. The best compliance checker. All sharing data through a common environment, all improving together.",
       stage4Title: "Stage 4: The Future (7-10 Years)",
       stage4Desc1:
-        "Every construction software company will sell agents, not applications. Autodesk, Procore, Trimble — they'll all become agent companies. INFRATEK is building this future",
+        "Every construction software company will sell agents, not applications. Autodesk, Procore, Trimble: they'll all become agent companies. INFRATEK is building this future",
       stage4Desc2: "today",
       quote:
-        "\"If you've ever watched a brilliant superintendent spend their day buried in paperwork instead of leading... if you've ever wondered why construction productivity has gone backward while every other industry has surged forward... if you believe this essential, civilization-building industry deserves better than the status quo — then let's build it together.\"",
+        "\"If you've ever watched a brilliant superintendent spend their day buried in paperwork instead of leading... if you've ever wondered why construction productivity has gone backward while every other industry has surged forward... if you believe this essential, civilization-building industry deserves better than the status quo. then let's build it together.\"",
       closing: "Let's not waste it.",
     },
     // Economics
@@ -144,9 +144,9 @@ const translations = {
         subtitle: "7-day free trial upon access",
         features: [
           "Position based on signup order and referrals",
-          "Access opens in waves — 2026",
+          "Access opens in waves, 2026",
           "50 credits to explore the platform",
-          "Share your referral link — each signup moves you up 5 spots",
+          "Share your referral link. each signup moves you up 5 spots",
         ],
       },
       founding: {
@@ -156,13 +156,13 @@ const translations = {
         price: "$99",
         subtitle: "+ LinkedIn repost of our demo",
         features: [
-          "Skip the waitlist — immediate beta access",
+          "Skip the waitlist, immediate beta access",
           "100 credits to build and test your tools",
           "Hands-on support from the founder",
           "50% off your subscription, permanently",
           "Direct input on what we build next",
         ],
-        cta: "Claim Your Spot — $99 →",
+        cta: "Claim Your Spot. $99 →",
       },
       design: {
         label: "5 partnerships only",
@@ -189,10 +189,10 @@ const translations = {
         achievements: [
           "15+ years leading BIM/VDC implementation across LATAM and USA",
           "Stanford VDC Certificate · CPMAI · B.Arch + M.S. Construction Management (University of Florida)",
-          "Built the FIRST BIM department in Peru (COSAPI) — $2.5M documented ROI, 50+ professionals trained",
-          "Multi-agent AI systems architect — pioneering agentic infrastructure for AEC",
+          "Built the FIRST BIM department in Peru (COSAPI). $2.5M documented ROI, 50+ professionals trained",
+          "Multi-agent AI systems architect. pioneering agentic infrastructure for AEC",
         ],
-        bio: "Sergio has lived the 3 AM spreadsheet panic. He's built BIM departments from zero, trained teams across continents, and documented millions in ROI. Now he's building the platform that puts that same power in everyone's hands — powered by AI agents that never sleep.",
+        bio: "Sergio has lived the 3 AM spreadsheet panic. He's built BIM departments from zero, trained teams across continents, and documented millions in ROI. Now he's building the platform that puts that same power in everyone's hands, powered by AI agents that never sleep.",
       },
     },
     // Course
@@ -200,7 +200,7 @@ const translations = {
       label: "Coming Soon",
       title: "Machine Learning for Construction",
       description:
-        "From a single neuron to prompt engineering. SVG, gradient descent, normalization, optimization — explained for construction professionals. Context engineering for the AEC industry.",
+        "From a single neuron to prompt engineering. SVG, gradient descent, normalization, optimization, all explained for construction professionals. Context engineering for the AEC industry.",
       cta: "Get Notified →",
     },
     // Waitlist section
@@ -208,7 +208,7 @@ const translations = {
       title: "Join the Waitlist",
       description:
         "We're opening access in waves. Sign up to reserve your spot.",
-      referral: "Refer colleagues to move up — each referral jumps you 5 positions.",
+      referral: "Refer colleagues to move up. each referral jumps you 5 positions.",
       loading: "Waitlist widget loading...",
       poweredBy: "Powered by",
       customIntegration: "Need a custom integration for your team?",
@@ -239,7 +239,7 @@ const translations = {
       title1: "Construye Tus Propias Herramientas de Ingeniería",
       title2: "con IA",
       description:
-        "La plataforma donde los profesionales de la construcción crean aplicaciones de IA personalizadas — desde estimaciones de presupuesto hasta modelos 3D — sin escribir código.",
+        "La plataforma donde los profesionales de la construcción crean aplicaciones de IA personalizadas, desde estimaciones de presupuesto hasta modelos 3D, sin escribir código.",
       vibeEngineering: "La Ingeniería Conversacional llegó.",
       cta1: "Acceso Anticipado →",
       cta2: "Lee Nuestro Plan Maestro",
@@ -263,7 +263,7 @@ const translations = {
         },
         {
           title: "Construimos Tu Herramienta",
-          desc: "Nuestros agentes de IA diseñan una aplicación personalizada a tus necesidades específicas — rastreadores de presupuesto, cuantificaciones, monitores de cronograma, procesadores BIM.",
+          desc: "Nuestros agentes de IA diseñan una aplicación personalizada a tus necesidades específicas: rastreadores de presupuesto, cuantificaciones, monitores de cronograma, procesadores BIM.",
         },
         {
           title: "Trabaja Para Ti 24/7",
@@ -281,19 +281,19 @@ const translations = {
         {
           name: "WARI",
           tagline: "Empleado IA para Construcción",
-          desc: "Agente autónomo que monitorea proyectos 24/7. Lee planos, rastrea presupuestos, alerta riesgos, documenta todo en La Plaza — el feed social para inteligencia de construcción.",
+          desc: "Agente autónomo que monitorea proyectos 24/7. Lee planos, rastrea presupuestos, alerta riesgos, documenta todo en La Plaza. el feed social para inteligencia de construcción.",
           status: "En Desarrollo",
         },
         {
           name: "Jarvis / BIMSearch",
           tagline: "Sistema de Inteligencia RFP",
           desc: "Escanea portales gubernamentales (SAM.gov, licitaciones estatales) en busca de oportunidades BIM/VDC. Califica prospectos, puntúa relevancia y los entrega a tu pipeline.",
-          status: "Activo — Cliente de Pago",
+          status: "Activo. Cliente de Pago",
         },
         {
           name: "WAGI",
           tagline: "Plataforma de Inteligencia para Construcción",
-          desc: "Plataforma de IA Web Assembly donde los datos del proyecto fluyen entre agentes. Seguimiento de costos, planificación, programación — todo conectado a través de un entorno de datos común.",
+          desc: "Plataforma de IA Web Assembly donde los datos del proyecto fluyen entre agentes. Seguimiento de costos, planificación, programación, todo conectado a través de un entorno de datos común.",
           status: "En Desarrollo",
         },
         {
@@ -312,12 +312,12 @@ const translations = {
       how: "cómo",
       intro2: ", necesitamos decirte",
       why: "por qué",
-      p1: "La industria de la construcción es una máquina global de $13 billones que funciona con procesos que no han cambiado fundamentalmente en décadas. El retrabajo, los presupuestos reventados, los cronogramas volados — no son costos inevitables. Son problemas de datos. Y los problemas de datos tienen solución.",
-      p2: "Creemos que los gerentes de proyecto y superintendentes deberían ser líderes estratégicos, no bomberos de tiempo completo. Tu experiencia debería resolver los desafíos únicos de un proyecto — no quedar enterrada en hojas de cálculo y papeleo.",
+      p1: "La industria de la construcción es una máquina global de $13 billones que funciona con procesos que no han cambiado fundamentalmente en décadas. El retrabajo, los presupuestos reventados, los cronogramas volados: no son costos inevitables. Son problemas de datos. Y los problemas de datos tienen solución.",
+      p2: "Creemos que los gerentes de proyecto y superintendentes deberían ser líderes estratégicos, no bomberos de tiempo completo. Tu experiencia debería resolver los desafíos únicos de un proyecto, no quedar enterrada en hojas de cálculo y papeleo.",
       stage1Title: "Etapa 1: Empezamos Donde Más Duele",
-      conductorsHat: "\"El Sombrero del Director\"",
+      conductorsHat: "\"El Sombrero del Conductor\"",
       stage1Desc:
-        "Cada proyecto necesita UN operador — una persona que se ponga el sombrero del director y aprenda a pilotar el sistema de IA. No se trata de reemplazar humanos. Se trata de darle a cada profesional el poder de construir herramientas que antes eran imposibles.",
+        "Cada proyecto necesita UN operador, una persona que se ponga el sombrero del conductor y aprenda a pilotar el sistema de IA. No se trata de reemplazar humanos. Se trata de darle a cada profesional el poder de construir herramientas que antes eran imposibles.",
       stage2Title: "Etapa 2: La Plataforma Se Abre",
       stage2Desc:
         "Así como Replit democratizó la programación, INFRATEK democratiza el software de ingeniería. No necesitas un equipo de desarrollo. Necesitas una conversación y un objetivo claro. Nuestros agentes se encargan del resto.",
@@ -326,10 +326,10 @@ const translations = {
         "Un marketplace de herramientas de IA construido por la industria, para la industria. El mejor agente de cuantificación. El mejor optimizador de cronogramas. El mejor verificador de cumplimiento. Todos compartiendo datos a través de un entorno común, todos mejorando juntos.",
       stage4Title: "Etapa 4: El Futuro (7-10 Años)",
       stage4Desc1:
-        "Cada empresa de software de construcción venderá agentes, no aplicaciones. Autodesk, Procore, Trimble — todos se convertirán en empresas de agentes. INFRATEK está construyendo este futuro",
+        "Cada empresa de software de construcción venderá agentes, no aplicaciones. Autodesk, Procore, Trimble: todos se convertirán en empresas de agentes. INFRATEK está construyendo este futuro",
       stage4Desc2: "hoy",
       quote:
-        "\"Si alguna vez has visto a un superintendente brillante pasar su día enterrado en papeleo en lugar de liderar... si alguna vez te has preguntado por qué la productividad de la construcción ha ido hacia atrás mientras todas las demás industrias han avanzado... si crees que esta industria esencial, constructora de civilización, merece algo mejor que el status quo — entonces construyámoslo juntos.\"",
+        "\"Si alguna vez has visto a un superintendente brillante pasar su día enterrado en papeleo en lugar de liderar... si alguna vez te has preguntado por qué la productividad de la construcción ha ido hacia atrás mientras todas las demás industrias han avanzado... si crees que esta industria esencial, constructora de civilización, merece algo mejor que el status quo, entonces construyámoslo juntos.\"",
       closing: "No lo desperdiciemos.",
     },
     // Economics
@@ -361,9 +361,9 @@ const translations = {
         subtitle: "7 días de prueba gratis al acceder",
         features: [
           "Posición basada en orden de registro y referidos",
-          "El acceso abre en oleadas — 2026",
+          "El acceso abre en oleadas. 2026",
           "50 créditos para explorar la plataforma",
-          "Comparte tu enlace de referido — cada registro te sube 5 lugares",
+          "Comparte tu enlace de referido; cada registro te sube 5 lugares",
         ],
       },
       founding: {
@@ -373,13 +373,13 @@ const translations = {
         price: "$99",
         subtitle: "+ Repost en LinkedIn de nuestro demo",
         features: [
-          "Salta la lista de espera — acceso beta inmediato",
+          "Salta la lista de espera, acceso beta inmediato",
           "100 créditos para construir y probar tus herramientas",
           "Soporte directo del fundador",
           "50% de descuento en tu suscripción, permanentemente",
           "Input directo en lo que construimos después",
         ],
-        cta: "Reclama Tu Lugar — $99 →",
+        cta: "Reclama Tu Lugar. $99 →",
       },
       design: {
         label: "Solo 5 asociaciones",
@@ -406,10 +406,10 @@ const translations = {
         achievements: [
           "15+ años liderando implementación BIM/VDC en LATAM y USA",
           "Stanford VDC Certificate · CPMAI · B.Arch + M.S. Construction Management (University of Florida)",
-          "Construyó el PRIMER departamento BIM en Perú (COSAPI) — $2.5M ROI documentado, 50+ profesionales capacitados",
-          "Arquitecto de sistemas de IA multi-agente — pionero en infraestructura agéntica para AEC",
+          "Construyó el PRIMER departamento BIM en Perú (COSAPI). $2.5M ROI documentado, 50+ profesionales capacitados",
+          "Arquitecto de sistemas de IA multi-agente. pionero en infraestructura agéntica para AEC",
         ],
-        bio: "Sergio ha vivido el pánico de las 3 AM con hojas de cálculo. Ha construido departamentos BIM desde cero, capacitado equipos en varios continentes y documentado millones en ROI. Ahora está construyendo la plataforma que pone ese mismo poder en las manos de todos — impulsada por agentes de IA que nunca duermen.",
+        bio: "Sergio ha vivido el pánico de las 3 AM con hojas de cálculo. Ha construido departamentos BIM desde cero, capacitado equipos en varios continentes y documentado millones en ROI. Ahora está construyendo la plataforma que pone ese mismo poder en las manos de todos, impulsada por agentes de IA que nunca duermen.",
       },
     },
     // Course
@@ -417,7 +417,7 @@ const translations = {
       label: "Próximamente",
       title: "Machine Learning para Construcción",
       description:
-        "Desde una sola neurona hasta ingeniería de prompts. SVG, descenso de gradiente, normalización, optimización — explicado para profesionales de la construcción. Ingeniería de contexto para la industria AEC.",
+        "Desde una sola neurona hasta ingeniería de prompts. SVG, descenso de gradiente, normalización, optimización, explicado para profesionales de la construcción. Ingeniería de contexto para la industria AEC.",
       cta: "Recibe Notificaciones →",
     },
     // Waitlist section
@@ -425,7 +425,7 @@ const translations = {
       title: "Únete a la Lista de Espera",
       description:
         "Estamos abriendo acceso en oleadas. Regístrate para reservar tu lugar.",
-      referral: "Refiere colegas para avanzar — cada referido te sube 5 posiciones.",
+      referral: "Refiere colegas para avanzar; cada referido te sube 5 posiciones.",
       loading: "Cargando widget de lista de espera...",
       poweredBy: "Powered by",
       customIntegration: "¿Necesitas una integración personalizada para tu equipo?",
