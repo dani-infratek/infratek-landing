@@ -492,17 +492,14 @@ export default function Home() {
       {/* ─── HEADER ─── */}
       <header className="sticky top-0 z-50 bg-[var(--color-cream)]/95 backdrop-blur-sm border-b border-[var(--color-cream-dark)]">
         <div className="max-w-5xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 shrink-0">
+          <a href="/" className="shrink-0">
             <img
-              src="/infratek-logo-icon.png"
+              src="/infratek-logo-header.png"
               alt="INFRATEK"
-              width={32}
-              height={32}
-              className="h-8 w-auto"
+              width={160}
+              height={50}
+              className="h-8 md:h-10 w-auto"
             />
-            <span className="text-lg md:text-xl font-semibold tracking-wide text-[var(--color-charcoal)]">
-              INFRATEK<span className="text-[var(--color-accent)]">.AI</span>
-            </span>
           </a>
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
             <a href="#how" className="hover:text-[var(--color-accent)] transition">
