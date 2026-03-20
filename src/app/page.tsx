@@ -472,9 +472,9 @@ export default function Home() {
   ];
 
   const howItWorksData = [
-    { step: "1", icon: "💬", ...t.howItWorks.steps[0] },
-    { step: "2", icon: "⚡", ...t.howItWorks.steps[1] },
-    { step: "3", icon: "🚀", ...t.howItWorks.steps[2] },
+    { step: "1", ...t.howItWorks.steps[0] },
+    { step: "2", ...t.howItWorks.steps[1] },
+    { step: "3", ...t.howItWorks.steps[2] },
   ];
 
   return (
@@ -518,7 +518,10 @@ export default function Home() {
               className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-[var(--color-cream-dark)] hover:border-[var(--color-charcoal-light)] transition text-sm"
               aria-label="Toggle language"
             >
-              <span>🌐</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-[var(--color-charcoal-light)]">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
               <span className={lang === "en" ? "font-semibold text-[var(--color-charcoal)]" : "text-[var(--color-charcoal-light)]"}>
                 EN
               </span>
@@ -591,12 +594,30 @@ export default function Home() {
           {t.howItWorks.title}
         </h2>
         <div className="grid md:grid-cols-3 gap-12">
-          {howItWorksData.map((item) => (
+          {howItWorksData.map((item, idx) => (
             <div
               key={item.step}
               className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition"
             >
-              <div className="text-4xl mb-4">{item.icon}</div>
+              <div className="mb-4">
+                {idx === 0 && (
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[var(--color-accent)]">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                )}
+                {idx === 1 && (
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[var(--color-accent)]">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                )}
+                {idx === 2 && (
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[var(--color-accent)]">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                  </svg>
+                )}
+              </div>
               <div className="text-sm text-[var(--color-accent)] font-semibold mb-2">
                 {t.howItWorks.step} {item.step}
               </div>
@@ -908,7 +929,13 @@ export default function Home() {
               {t.course.cta}
             </a>
           </div>
-          <div className="text-6xl md:text-8xl opacity-20">🧠</div>
+          <div className="opacity-15">
+            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.8" className="text-white">
+              <path d="M12 2a4 4 0 0 0-4 4v1a4 4 0 0 0-1 7.87V17a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2.13A4 4 0 0 0 16 7V6a4 4 0 0 0-4-4z" />
+              <path d="M10 21v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1" />
+              <path d="M9 17h6" />
+            </svg>
+          </div>
         </div>
       </section>
 
