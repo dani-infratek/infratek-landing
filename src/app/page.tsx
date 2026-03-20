@@ -498,7 +498,8 @@ export default function Home() {
               alt="INFRATEK"
               width={160}
               height={50}
-              className="h-8 md:h-10 w-auto"
+              style={{ height: "2rem", width: "auto", maxWidth: "140px" }}
+              className="md:!h-10 md:!max-w-[180px]"
             />
           </a>
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
