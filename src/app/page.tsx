@@ -492,14 +492,13 @@ export default function Home() {
       {/* ─── HEADER ─── */}
       <header className="sticky top-0 z-50 bg-[var(--color-cream)]/95 backdrop-blur-sm border-b border-[var(--color-cream-dark)]">
         <div className="max-w-5xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
-          <a href="/" className="shrink-0">
+          <a href="/" className="shrink-0 block" style={{ maxWidth: "140px" }}>
             <img
               src="/infratek-logo-header.png"
               alt="INFRATEK"
-              width={160}
-              height={50}
-              style={{ height: "2rem", width: "auto", maxWidth: "140px" }}
-              className="md:!h-10 md:!max-w-[180px]"
+              width="140"
+              height="44"
+              style={{ display: "block", width: "100%", height: "auto", maxHeight: "36px" }}
             />
           </a>
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
