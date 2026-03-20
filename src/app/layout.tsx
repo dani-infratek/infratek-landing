@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: "INFRATEK.AI — Vibe Engineering for Construction",
   description:
     "The platform where AEC professionals build custom AI tools. The Replit of the construction industry.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "INFRATEK.AI — Vibe Engineering for Construction",
     description:
@@ -12,6 +16,7 @@ export const metadata: Metadata = {
     url: "https://infratek.ai",
     siteName: "INFRATEK.AI",
     type: "website",
+    images: [{ url: "/infratek-logo-full.png", width: 852, height: 812 }],
   },
 };
 

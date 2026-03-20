@@ -482,20 +482,18 @@ export default function Home() {
       {/* ─── HEADER ─── */}
       <header className="sticky top-0 z-50 bg-[var(--color-cream)]/95 backdrop-blur-sm border-b border-[var(--color-cream-dark)]">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
-              <path
-                d="M20 4L4 16V36H16V26H24V36H36V16L20 4Z"
-                stroke="#D94F3D"
-                strokeWidth="2.5"
-                fill="none"
-              />
-              <path d="M14 20H26M20 14V26" stroke="#D94F3D" strokeWidth="2" />
-            </svg>
+          <a href="/" className="flex items-center gap-3">
+            <img
+              src="/infratek-logo-icon.png"
+              alt="INFRATEK"
+              width={36}
+              height={36}
+              className="h-9 w-auto"
+            />
             <span className="text-xl font-semibold tracking-wide text-[var(--color-charcoal)]">
               INFRATEK<span className="text-[var(--color-accent)]">.AI</span>
             </span>
-          </div>
+          </a>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[var(--color-charcoal-light)]">
             <a href="#how" className="hover:text-[var(--color-accent)] transition">
               {t.nav.howItWorks}
